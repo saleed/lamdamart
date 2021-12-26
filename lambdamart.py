@@ -229,7 +229,7 @@ class LambdaMART:
 		self.training_data = training_data
 		self.number_of_trees = number_of_trees
 		self.learning_rate = learning_rate
-		self.trees = None
+		self.trees = []
 		self.tree_type = tree_type
 
 	def fit(self):
